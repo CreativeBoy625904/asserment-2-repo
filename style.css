@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.containr{
+    width: 1460px;
+        margin: 0 auto;}
+   /* -------------------from section------------------ */
+  
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.start h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: black;
+}
+
+.start h3 {
+    font-family: fantasy;
+    color: gray;
+}
+
+.start form label {
+    font-size: 40px;
+    font-family: poppins;
+    color: black;
+}
+
+.start form input {
+
+    padding: 10px 180px;
+    font-size: 20px;
+
+}
+.start h3 a{
+    margin-left: 19px;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 60px;
+    background-color: cornflowerblue;
+    font-size: 25px;
+}
+
+
+.pic img{
+    height: 500px;
+    width: 600px;
+}
+
+.start {
+    display: inline-block;
+    padding: 12px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 200px 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+#from {
+
+  background-color: rgb(145, 70, 145);
+
+
+}
+
+
+
+
+
+
+/* ------------------------------------------starting header section-- ----------- */
+#head{
+    background-color: #2D25A0;
+    padding-bottom: 70px;
+}
+.full-head-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px ;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+           /* left-head-body */
+.left-head-body{
+    width: 587px;
+   
+    
+}
+
+.left-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-text a{
+   color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500px;
+
+}
+
+/* -----------------------right-head-body----------------------- */
+
+
+.right-head-body{
+    display: flex;
+align-items: center;
+
+        text-align: center;
+}
+
+.right-text{
+padding: 10px 0;
+    height: 42px;
+        width: 124px;
+    background-color: rgba(148, 0, 211, 0.733);
+    cursor: pointer;
+    transition: 5s all ease;
+}
+
+.right-text:hover{
+    color: tomato;
+    transition: .5s all ease ;
+    color: white;
+}
+
+
+
+
+
+.right-text a{
+    color: white;
+
+    height: 24px;
+    width: 24px;
+   
+    text-decoration: none;
+}
+.right-text a i{
+    padding-right: 8px ;
+}
+
+/* ----------------------------------------------------starting cornabol-------------- */
+
+
+
+
+.cornabol-all-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 170px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* .cornabol-left-side */
+
+.cornabol-left-side{
+    width: 485px;
+        height: 230px;
+    
+}
+
+
+.cornabol-text h1{
+    font-family:sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: wh;
+
+
+}
+
+.cornabol-position {
+    
+    padding: 10px 10px;
+        height: 42px;
+        width: 124px;
+        background-color:tomato ;
+        cursor: pointer;
+
+    
+}
+.cornabol-position a{
+   
+    color: white;
+    
+        height: 24px;
+        width: 24px;
+    
+        text-decoration: none;
+}
+.cornabol-position i{
+    padding-right: 8px;
+    
+}
+
+
+/* --------------------------cornabol right side----------------- */
+
+.cornabol-right-side{
+  
+        height: 438px;
+        
+}
+
+.cornabol-img-one{
+    position: relative;
+}
+.img-two{
+    position: absolute;
+    top: 20px;
+    left: -120px;
+}
+.img-two::before{
+    animation: skill 6s infinite ease-in
+    ;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -100px;
+}
+.img-two::after{
+    animation: skill 6s infinite ease-in;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: -100px;
+}
+
+
+@keyframes skill{
+    from{top: 0%;
+        right: -100px
+
+    }
+    to{ top: 0;
+        left: -200px;
+    }
+}
+
+
+/* < !-- --------------------second chapter card starting------------------------ --> */
+
+
+
+
+.all-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+
+    gap: 30px;
+    margin-top: 80px;
+    
+   
+}
+
+.one{
+     padding: 10px 15px;
+   width : 330px;
+        height: 470px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.one img{
+    width: 300px;
+        height: 256px;
+        background: url(<path-to-image>), rgba(211, 211, 211, 0.205)  ;
+
+}
+
+.one h1{
+    
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 14px 0;
+}
+.one p{
+    
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+}
+.btn{
+
+}
+
+.one button{
+    margin-top: 7px;
+    padding: 10px 15px;
+    
+    background-color:tomato;
+    color: white;
+    transition: 5s all ease;
+    cursor: pointer;
+}
+.one button:hover{
+    background-color: blueviolet;
+    transition: .5s all ease;
+
+}
+.im img{
+    height:500px;
+    width: 500px;
+}
+
+
+/* < !-- -------------------third chapter highlight-------------- --> */
+
+
+
+
+/* leftside */
+
+
+
+
